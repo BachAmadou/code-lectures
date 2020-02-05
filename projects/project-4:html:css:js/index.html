@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Background Changer</title>
+</head>
+<body>
+    <section id="wrapper">
+        <section class="contents">
+                <div class="font_family">
+                    <h3>Font Family</h3>
+                    <select id="font_options" onchange="change_font()">
+                        <option>Select Font</option>
+                        <option value="Roboto">Roboto</option>
+                        <option value="Open Sans">Open Sans</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+            
+                <div class="font_size">
+                    <h3>Font Size</h3>
+                    <select id="size_options" onchange="size_font()">
+                        <option value="20">20</option>
+                        <option value="24">24</option>
+                        <option value="28">28</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                        <option value="50">50</option>
+                        <option value="70">70</option>
+                        <option value="90">90</option>
+                    </select>
+                </div>
+
+                <div class="bg_color">
+                    <h3>Color Options</h3>
+                    <select id="color_options" onchange="color_background()">
+                        <option>Select Color</option>
+                        <option value="blue">Blue</option>
+                        <option value="Green">Green</option>
+                        <option value="red">Red</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+        </section>
+
+        <p id="text">Select options to update this text</p>
+    </section>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# code-lectures
+# Lectures
